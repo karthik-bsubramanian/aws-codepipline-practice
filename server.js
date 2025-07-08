@@ -14,7 +14,7 @@ app.get('/yaqub', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.write("Application is deployed using codePipeline and this is the first version cheers!");
+  res.write("Application is deployed using codePipeline and this is the second version cheers! hello");
   res.end();
 });
 app.listen(port)
